@@ -1,0 +1,50 @@
+h1.sitename
+{
+	padding-top: 3px;
+}
+
+a.homemenu
+{
+	background: none;
+	width: 0;
+	height: 0;
+	margin-left: 0;
+}
+
+#submenu
+{
+	margin-left: 60px;
+	font-size: 25px;
+}
+
+#submenu li a
+{
+	margin-right: 10px;
+}
+
+.field-items
+{
+	width: 861px;
+}
+
+.field-item.even , .field-item.odd 
+{
+	float: left;
+	width: 220px;
+	height: 220px;
+	background-color: black;
+	position:relative;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.field-item.even img, .field-item.odd img
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin:auto;
+}
+
